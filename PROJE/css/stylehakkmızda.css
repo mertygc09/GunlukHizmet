@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    margin:0;
+}
+
+#menu{
+    height: 80px;
+    padding: 0 50px;
+}
+
+#logo{
+    font-size: 30px;
+    line-height: 80px;
+    float: left;
+}
+
+nav{
+    float: right;
+    line-height: 80px;
+}
+
+nav a:link{
+    text-decoration: none;
+    margin-right: 40px;
+    color: gray;
+}
+nav a:hover{
+    border-bottom: 2px solid #63c7e3;
+}
+
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: gray;
+}
+
+h3{
+    font-size: 55px;
+    color: #63c7e3;
+    font-weight: 600;
+    text-align: center;
+}
+
+#container{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+}
+
+.p{
+    color: #999999;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.8;
+    }
+
+    #socialfooter{
+        border: 1px solid black;
+        padding: 10px;
+        width: 75px;
+        border-radius: 5px;
+        margin: 1px 1px;
+    }
+
+    #socialfooter:hover{
+
+        background-color: #63c7e3;
+    }
+
+    #copyright{
+        text-align: center;
+        color: rgb(129, 129, 144);
+        font-size: 20px;
+        letter-spacing: 2px;
+        margin-top: 15px;
+    }
+
+    #pbaslık{
+        float: left;
+        font-size: 40px;
+        padding-left: 20px;
+        line-height: 0px;
+        color: rgb(122, 17, 17);
+        font-weight: 100;
+    }
